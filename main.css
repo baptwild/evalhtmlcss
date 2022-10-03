@@ -12,6 +12,7 @@ header {
 
     width: 1200px;
     height: auto;
+    margin-left: 30px;
 }
 
 .nav-barre {
@@ -64,25 +65,44 @@ header {
 /* Container_1 ( container left + div top +
  div bottom + les populaires */
 .container_1 {
-    background-color: red;
+    background-color: white;
     width: 1200px;
     display: flex;
     justify-content: space-between;
 
 }
 /* Section container left*/
-.container_left div {
+.container_left  {
+    background-color: darkgrey;
+    border-radius: 20px;
+    width: 850px;
+    margin-left: 20px;
+    padding-left: 30px;
 
-    background-color: mediumpurple;
+
 }
-
+.container_right {
+    background-color: darkgrey;
+    border-radius: 20px;
+    width: 280px;
+    margin-left: 20px;
+}
+.container_left > p {
+    margin-top: 80px;
+    margin-left: 45px
+;
+}
 .hebergement_top {
+    width: 800px;
    display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .hebergement_bottom{
+    width: 800px;
     display: flex;
+    justify-content: space-between;
 }
 
 .carte_hebergement img{
@@ -126,19 +146,29 @@ header {
 /* Container 2*/
 .container_2 {
 
-    background-color: purple;
+    background-color: white;
     width: 1200px;
 }
 .activité_left {
     display: flex;
 }
-.activité_left .double_block{
+.activité_right {
+    display: flex;
+}
+.double_block img {
     display: flex;
     flex-direction: column;
 }
 .activité_left img {
+    border-radius: 20px;
     width: 200px;
     height: 400px;
+}
+.activité_right img {
+    border-radius: 20px;
+    width: 200px;
+    height: 400px;
+
 }
 
 .double_block img {
@@ -148,6 +178,8 @@ header {
 
 /* Footer */
 footer {
+    margin-top: 20px;
+    background-color: darkgrey;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -162,5 +194,6 @@ footer a {
     color: grey;
 }
 footer a:hover {
+
 
 }
