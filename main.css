@@ -4,7 +4,7 @@ body {
 }
 
 span {
-
+    font-weight: bold;
 }
 
 /* Header */
@@ -84,13 +84,12 @@ header {
 .container_right {
     background-color: darkgrey;
     border-radius: 20px;
-    width: 280px;
+    width: 350px;
     margin-left: 20px;
 }
 .container_left > p {
-    margin-top: 80px;
-    margin-left: 45px
-;
+    margin-top: 40px;
+    margin-left: 45px;
 }
 .hebergement_top {
     width: 800px;
@@ -107,10 +106,14 @@ header {
 
 .carte_hebergement img{
     align-items: flex-start;
-    width: 200px;
+    width: 250px;
     height: 100px;
     border-top-right-radius: 15%;
     border-top-left-radius: 15%;
+}
+
+.carte_hebergement > .fa-solid , .fa-regular , .fa-star{
+    color: blue;
 }
  .carte_hebergement{
      background-color: white;
@@ -127,16 +130,25 @@ header {
 
 /* Section populaire */
 .carte_2 {
+    display: flex;
+    justify-content: space-between;
     background-color: white;
-    width: 250px;
-    height: 210px;
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
     border: 4px solid white;
     border-radius: 10%;
 }
+.carte_2 p , h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
  .carte_2 img{
-     align-items: flex-start;
-     width: 200px;
-     height: 100px;
+     width: 150px;
+     height: 150px;
      border-top-right-radius: 15%;
      border-top-left-radius: 15%;
  }
