@@ -170,18 +170,20 @@ header {
 
 /* Container 2*/
 .container_2 {
+    display: flex;
     margin : 30px;
     background-color: white;
     width: 1400px;
 }
+
 .activité_left {
     width: 600px;
     display: flex;
-    flex-direction: column;
+
 }
  .activité_left .left_1 {
      display: flex;
-     flex-direction: column;
+    flex-direction: column;
  }
 
 .activité_left .double_block {
@@ -191,6 +193,10 @@ header {
 .activité_right {
     display: flex;
 }
+.activité_right .activité_left {
+    display: flex;
+}
+
 .double_block {
     display: flex;
     flex-direction: column;
