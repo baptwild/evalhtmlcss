@@ -1,6 +1,7 @@
 body {
     font-family: 'Raleway';
     font-size: 14px;
+    margin: 10px;
 }
 a {
     text-decoration: none;
@@ -15,7 +16,6 @@ h2{
 
 /* Header */
 header {
-
     width: 1400px;
     height: auto;
     margin-left: 30px;
@@ -42,6 +42,9 @@ header {
     display: flex;
     margin-top: 20px;
 }
+.filtres .fa-solid {
+    color: #2A63F3;
+}
 
 .filtres ul {
     display: flex;
@@ -53,7 +56,7 @@ header {
     display: flex;
     margin-left: 15px;
     padding-right: 8px;
-    border: 1px solid grey;
+    border: 2px solid grey;
 }
 .filtres a {
     color: black;
@@ -65,13 +68,17 @@ header {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: dodgerblue;
+    background-color: #aec1f6;
 }
 
 .nav-barre i{
     background: darkgrey;
 }
-
+label input{
+    width: 200px;
+    height: 55px;
+    padding: 0 0 0 0;
+}
 .btn_filtres {
     width: auto;
     height: 30Px;
@@ -81,11 +88,10 @@ header {
 .btn_1 {
     background-color: blue;
     border: 2px solid blue;
-    border-radius: 8px;
+    border-radius: 0px 10px 10px 0px;
     color: white;
     text-align: center;
     text-decoration: none;
-    padding-left: 25px;
 }
 
 /* Container_1 ( container left + div top +
