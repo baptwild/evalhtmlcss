@@ -34,14 +34,15 @@ header {
 }
 
 .nav-barre li {
-    justify-content: space-between;
-    color: blue;
+    justify-content: space-around;
     margin: 30px;
 }
 
 .filtres {
     display: flex;
+    margin-top: 20px;
 }
+
 .filtres ul {
     display: flex;
     list-style: none;
@@ -50,9 +51,9 @@ header {
 .filtres ul li {
     border-radius: 35px;
     display: flex;
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid grey;
+    margin-left: 15px;
+    padding-right: 8px;
+    border: 1px solid grey;
 }
 .filtres a {
     color: black;
@@ -67,7 +68,9 @@ header {
     background-color: dodgerblue;
 }
 
-
+.nav-barre i{
+    background: darkgrey;
+}
 
 .btn_filtres {
     width: auto;
@@ -82,6 +85,7 @@ header {
     color: white;
     text-align: center;
     text-decoration: none;
+    padding-left: 25px;
 }
 
 /* Container_1 ( container left + div top +
@@ -235,7 +239,7 @@ header {
 footer {
     width: 1400px;
     margin-top: 20px;
-    background-color: #F2F2F2;
+    background-color: #ECECEC;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
