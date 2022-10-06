@@ -10,9 +10,7 @@ span {
     font-weight: bold;
 }
 
-h2{
-    margin-left: 30px;
-}
+
 
 /* Header */
 header {
@@ -99,15 +97,20 @@ label input{
 .container_1 {
     background-color: white;
     width: 1400px;
+    height: auto;
     display: flex;
     justify-content: space-between;
+}
 
+.container_1 h2 {
+    margin-left: 20px;
 }
 /* Section container left = Hébéergement a Marseille*/
 .container_left  {
     background-color: #f2f2f2;
     border-radius: 20px;
     width: 850px;
+    height: auto;
     margin-left: 20px;
     padding-left: 30px;
 }
@@ -118,6 +121,7 @@ label input{
 }
 .hebergement_top {
     width: 800px;
+    height: auto;
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
@@ -131,10 +135,9 @@ label input{
 
 .carte_hebergement img{
     align-items: flex-start;
-    width: 250px;
+    width: 230px;
     height: 100px;
-    border-top-right-radius: 15%;
-    border-top-left-radius: 15%;
+    border-radius: 10% 10% 0% 0%;
 }
 
 .carte_hebergement > .fa-solid , .fa-star{
@@ -145,8 +148,8 @@ label input{
 }
 .carte_hebergement{
     background-color: white;
-    width: 250px;
-    height: 210px;
+    width: 230px;
+    height: auto;
     border: 4px solid white;
     border-radius: 15px;
 }
@@ -154,6 +157,10 @@ label input{
 .carte_hebergement p, h3{
     margin-left: 10px;
     text-align: left;
+}
+
+.carte_hebergement i:first-of-type{
+    margin-left: 10px;
 }
 
 /* Section populaire */
