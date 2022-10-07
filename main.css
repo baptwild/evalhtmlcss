@@ -204,15 +204,7 @@ label input{
     color: grey;
 }
 
-@media screen and (max-width: 768px) {
-    .container_1{
-        flex-direction: column-reverse;
-    }
-    .container_1 .hebergement_bottom , .hebergement_top{
-        flex-direction: column;
-    }
 
-}
 
 /* Container 2*/
 .container_2 {
@@ -284,4 +276,18 @@ footer ul li {
 
 footer a {
     color: black;
+}
+
+/* Responsive */
+
+/* section hébérgement */
+@media screen and (max-width: 768px) {
+    .container_1{
+        flex-direction: column-reverse;
+    }
+    .container_1 .hebergement_bottom , .hebergement_top{
+        flex-direction: column;
+    }
+
+
 }
